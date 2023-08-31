@@ -128,5 +128,5 @@ USE_PASSAGE: 'push-deer',
 
 }
 
-//module.exports = USER_CONFIG
+module.exports = USER_CONFIG
 
