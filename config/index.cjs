@@ -51,7 +51,7 @@ USE_PASSAGE: 'push-deer',
       // 如果courseSchedule不存在或者为空（null）则认为没有课程
       // 如果courseSchedule是一个数组，则认为不区分单双周，直接填写星期几对应的课表数据即可
       // 如果courseSchedule是一个对象（如下面所示）
-      courseSchedule: {
+      courseSchedule:[ {
         // 单双周的基准
         benchmark: {
           // 这里设置一个日期，用来作为判断课表是否单双周的依据
@@ -112,7 +112,7 @@ USE_PASSAGE: 'push-deer',
           ]
         }
     },
-
+],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
@@ -129,4 +129,4 @@ USE_PASSAGE: 'push-deer',
 }
 
 module.exports = USER_CONFIG
-
+],
